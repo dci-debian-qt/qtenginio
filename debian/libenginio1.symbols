@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.3.1 amd64 i386
 libEnginio.so.1 libenginio1 #MINVER#
  _ZN12EnginioModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.1
  _ZN12EnginioModel11qt_metacastEPKc@Base 5.3.1
@@ -256,11 +256,12 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN27EnginioOAuth2AuthenticationD0Ev@Base 5.3.1
  _ZN27EnginioOAuth2AuthenticationD1Ev@Base 5.3.1
  _ZN27EnginioOAuth2AuthenticationD2Ev@Base 5.3.1
+ (optional=templinst|arch=amd64)_ZN30EnginioClientConnectionPrivate10uploadFileI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_ERK4QUrl@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate11createReplyEP13QNetworkReply@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate11uploadChunkEP17EnginioReplyStateP9QIODevicex@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate12emitFinishedEP17EnginioReplyState@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate13replyFinishedEP13QNetworkReply@Base 5.3.1
- _ZN30EnginioClientConnectionPrivate13uploadChunkedI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EP9QIODevice@Base 5.3.1
+ (arch=i386)_ZN30EnginioClientConnectionPrivate13uploadChunkedI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EP9QIODevice@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate14prepareRequestERK4QUrl@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate20assignNetworkManagerEv@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate20finishDelayedRepliesEv@Base 5.3.1
