@@ -1,5 +1,6 @@
-# SymbolsHelper-Confirmed: 5.3.2 ppc64
+# SymbolsHelper-Confirmed: 5.3.2 amd64 armel armhf i386 mipsel powerpc ppc64 s390x sparc
 libEnginio.so.1 libenginio1 #MINVER#
+ (arch=amd64 i386)_ZN10QByteArray7reserveEi@Base 5.3.2
  _ZN12EnginioModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.1
  _ZN12EnginioModel11qt_metacastEPKc@Base 5.3.1
  _ZN12EnginioModel12queryChangedERK11QJsonObject@Base 5.3.1
@@ -139,6 +140,9 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN15EnginioIdentity16staticMetaObjectE@Base 5.3.1
  _ZN15EnginioIdentityC1ER22EnginioIdentityPrivateP7QObject@Base 5.3.1
  _ZN15EnginioIdentityC2ER22EnginioIdentityPrivateP7QObject@Base 5.3.1
+ (arch=!ppc64)_ZN15EnginioIdentityD0Ev@Base 5.3.2
+ (arch=!ppc64)_ZN15EnginioIdentityD1Ev@Base 5.3.2
+ (arch=!ppc64)_ZN15EnginioIdentityD2Ev@Base 5.3.2
  _ZN16EnginioBaseModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.1
  _ZN16EnginioBaseModel11qt_metacastEPKc@Base 5.3.1
  _ZN16EnginioBaseModel16staticMetaObjectE@Base 5.3.1
@@ -190,15 +194,19 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN17EnginioReplyStateD1Ev@Base 5.3.1
  _ZN17EnginioReplyStateD2Ev@Base 5.3.1
  _ZN23EnginioBaseModelPrivate14fullQueryResetERK10QJsonArray@Base 5.3.1
- (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips64el mipsel)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC1ERKS0_@Base 5.3.1
- (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips64el mipsel)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC2ERKS0_@Base 5.3.1
- (arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseD1Ev@Base 5.3.1
- (arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseD2Ev@Base 5.3.1
+ (arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips64el)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC1ERKS0_@Base 5.3.1
+ (arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips64el)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC2ERKS0_@Base 5.3.1
+ (arch=!armel !armhf !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386 !mipsel !powerpc !s390x !sparc)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseD1Ev@Base 5.3.2
+ (arch=!armel !armhf !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386 !mipsel !powerpc !s390x !sparc)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseD2Ev@Base 5.3.2
  _ZN23EnginioBaseModelPrivate20receivedNotificationE11QJsonObject@Base 5.3.1
+ (arch=amd64 i386)_ZN23EnginioBaseModelPrivate21FinishedUpdateRequestC1ERKS0_@Base 5.3.2
+ (arch=amd64 i386)_ZN23EnginioBaseModelPrivate21FinishedUpdateRequestC2ERKS0_@Base 5.3.2
  _ZN23EnginioBaseModelPrivate22IncrementalModelUpdateE@Base 5.3.1
  _ZN23EnginioBaseModelPrivate26receivedCreateNotificationERK11QJsonObject@Base 5.3.1
  _ZN23EnginioBaseModelPrivate26receivedRemoveNotificationERK11QJsonObjecti@Base 5.3.1
  _ZN23EnginioBaseModelPrivate26receivedUpdateNotificationERK11QJsonObjectRK7QStringi@Base 5.3.1
+ (arch=amd64 i386)_ZN23EnginioBaseModelPrivate32FinishedIncrementalUpdateRequestC1ERKS0_@Base 5.3.2
+ (arch=amd64 i386)_ZN23EnginioBaseModelPrivate32FinishedIncrementalUpdateRequestC2ERKS0_@Base 5.3.2
  _ZN23EnginioBaseModelPrivate9syncRolesEv@Base 5.3.1
  _ZN23EnginioBaseModelPrivateD0Ev@Base 5.3.1
  _ZN23EnginioBaseModelPrivateD1Ev@Base 5.3.1
@@ -241,6 +249,8 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN24EnginioBackendConnectionD0Ev@Base 5.3.1
  _ZN24EnginioBackendConnectionD1Ev@Base 5.3.1
  _ZN24EnginioBackendConnectionD2Ev@Base 5.3.1
+ (arch=amd64 i386)_ZN25QAbstractItemModelPrivate10PersistentD1Ev@Base 5.3.2
+ (arch=amd64 i386)_ZN25QAbstractItemModelPrivate10PersistentD2Ev@Base 5.3.2
  _ZN25QAbstractItemModelPrivateD0Ev@Base 5.3.1
  _ZN25QAbstractItemModelPrivateD1Ev@Base 5.3.1
  _ZN25QAbstractItemModelPrivateD2Ev@Base 5.3.1
@@ -258,13 +268,15 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN27EnginioOAuth2AuthenticationD0Ev@Base 5.3.1
  _ZN27EnginioOAuth2AuthenticationD1Ev@Base 5.3.1
  _ZN27EnginioOAuth2AuthenticationD2Ev@Base 5.3.1
- (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x)_ZN30EnginioClientConnectionPrivate10uploadFileI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_ERK4QUrl@Base 5.3.1
+ (optional=templinst)_ZN30EnginioClientConnectionPrivate10uploadFileI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_ERK4QUrl@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate11createReplyEP13QNetworkReply@Base 5.3.1
+ (optional=templinst|arch=amd64 i386)_ZN30EnginioClientConnectionPrivate11downloadUrlI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_E@Base 5.3.2
  _ZN30EnginioClientConnectionPrivate11uploadChunkEP17EnginioReplyStateP9QIODevicex@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate12emitFinishedEP17EnginioReplyState@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate13replyFinishedEP13QNetworkReply@Base 5.3.1
- (arch=alpha arm64 armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips64el mipsel powerpc ppc64 ppc64el s390x sparc)_ZN30EnginioClientConnectionPrivate13uploadChunkedI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EP9QIODevice@Base 5.3.2
+ (arch=alpha amd64 arm64 armhf hppa hurd-i386 i386 kfreebsd-i386 mips64el ppc64 ppc64el)_ZN30EnginioClientConnectionPrivate13uploadChunkedI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EP9QIODevice@Base 5.3.2
  _ZN30EnginioClientConnectionPrivate14prepareRequestERK4QUrl@Base 5.3.1
+ (optional=templinst|arch=amd64 armhf i386)_ZN30EnginioClientConnectionPrivate19createHttpMultiPartI11QJsonObjectEEP14QHttpMultiPartRK13ObjectAdaptorIT_EP9QIODeviceRK7QString@Base 5.3.2
  _ZN30EnginioClientConnectionPrivate20assignNetworkManagerEv@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate20finishDelayedRepliesEv@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate21constructErrorMessageERK10QByteArray@Base 5.3.1
@@ -277,6 +289,9 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN30EnginioClientConnectionPrivate6createI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EN7Enginio9OperationE@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate6removeI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EN7Enginio9OperationE@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate6updateI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EN7Enginio9OperationE@Base 5.3.1
+ (optional=templinst|arch=amd64 i386)_ZN30EnginioClientConnectionPrivate6uploadI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EP9QIODeviceRK7QString@Base 5.3.2
+ (optional=templinst|arch=!ppc64)_ZN30EnginioClientConnectionPrivate7getPathI11QJsonObjectEENS_18GetPathReturnValueERKT_iP7QStringP10QByteArrayNS_11PathOptionsE@Base 5.3.2
+ (optional=templinst|arch=!amd64 !i386 !ppc64)_ZN30EnginioClientConnectionPrivate7getPathI13ObjectAdaptorI11QJsonObjectEEENS_18GetPathReturnValueERKT_iP7QStringP10QByteArrayNS_11PathOptionsE@Base 5.3.2
  _ZN30EnginioClientConnectionPrivate9emitErrorEP17EnginioReplyState@Base 5.3.1
  _ZN30EnginioClientConnectionPrivateC1Ev@Base 5.3.1
  _ZN30EnginioClientConnectionPrivateC2Ev@Base 5.3.1
@@ -284,6 +299,17 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN30EnginioClientConnectionPrivateD1Ev@Base 5.3.1
  _ZN30EnginioClientConnectionPrivateD2Ev@Base 5.3.1
  _ZN7Enginio16staticMetaObjectE@Base 5.3.1
+ (optional=templinst|arch=!ppc64)_ZN7QObject7connectIM13QNetworkReplyFvxxEN30EnginioClientConnectionPrivate21UploadProgressFunctorEEEN9QtPrivate9QEnableIfIXeqsrNS6_15FunctionPointerIT0_EE13ArgumentCountngLi1EEN11QMetaObject10ConnectionEE4TypeEPKNS8_IT_E6ObjectESF_S9_@Base 5.3.2
+ (optional=templinst|arch=amd64 i386)_ZN7QObject7connectIM17EnginioReplyStateFvvEMS_FvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESA_PKNS9_IT0_E6ObjectESF_N2Qt14ConnectionTypeE@Base 5.3.2
+ (optional=templinst|arch=amd64 i386)_ZN7QObject7connectIM17EnginioReplyStateFvvEN23EnginioBaseModelPrivate21FinishedCreateRequestEEEN9QtPrivate9QEnableIfIXeqsrNS6_15FunctionPointerIT0_EE13ArgumentCountngLi1EEN11QMetaObject10ConnectionEE4TypeEPKNS8_IT_E6ObjectESF_PKS_S9_N2Qt14ConnectionTypeE@Base 5.3.2
+ (optional=templinst|arch=amd64 i386)_ZN7QObject7connectIM17EnginioReplyStateFvvEN23EnginioBaseModelPrivate21FinishedRemoveRequestEEEN9QtPrivate9QEnableIfIXeqsrNS6_15FunctionPointerIT0_EE13ArgumentCountngLi1EEN11QMetaObject10ConnectionEE4TypeEPKNS8_IT_E6ObjectESF_PKS_S9_N2Qt14ConnectionTypeE@Base 5.3.2
+ (optional=templinst|arch=amd64 i386)_ZN7QObject7connectIM17EnginioReplyStateFvvEN23EnginioBaseModelPrivate24FinishedFullQueryRequestEEEN9QtPrivate9QEnableIfIXeqsrNS6_15FunctionPointerIT0_EE13ArgumentCountngLi1EEN11QMetaObject10ConnectionEE4TypeEPKNS8_IT_E6ObjectESF_PKS_S9_N2Qt14ConnectionTypeE@Base 5.3.2
+ (optional=templinst|arch=amd64 i386)_ZN7QObject7connectIM17EnginioReplyStateFvvEN23EnginioBaseModelPrivate26SwapNetworkReplyForSetDataEEEN9QtPrivate9QEnableIfIXeqsrNS6_15FunctionPointerIT0_EE13ArgumentCountngLi1EEN11QMetaObject10ConnectionEE4TypeEPKNS8_IT_E6ObjectESF_PKS_S9_N2Qt14ConnectionTypeE@Base 5.3.2
+ (optional=templinst|arch=amd64 i386)_ZN7QObject7connectIM17EnginioReplyStateFvvEN23EnginioBaseModelPrivate26SwapNetworkReplyForSetDataEEEN9QtPrivate9QEnableIfIXeqsrNS6_15FunctionPointerIT0_EE13ArgumentCountngLi1EEN11QMetaObject10ConnectionEE4TypeEPKNS8_IT_E6ObjectESF_S9_@Base 5.3.2
+ (optional=templinst|arch=amd64 i386)_ZN7QObject7connectIM17EnginioReplyStateFvvEN23EnginioBaseModelPrivate32FinishedIncrementalUpdateRequestEEEN9QtPrivate9QEnableIfIXeqsrNS6_15FunctionPointerIT0_EE13ArgumentCountngLi1EEN11QMetaObject10ConnectionEE4TypeEPKNS8_IT_E6ObjectESF_PKS_S9_N2Qt14ConnectionTypeE@Base 5.3.2
+ (optional=templinst|arch=amd64 i386)_ZN7QObject7connectIM24EnginioBackendConnectionFv11QJsonObjectEN23EnginioBaseModelPrivate18NotificationObject20NotificationReceivedEEEN9QtPrivate9QEnableIfIXeqsrNS8_15FunctionPointerIT0_EE13ArgumentCountngLi1EEN11QMetaObject10ConnectionEE4TypeEPKNSA_IT_E6ObjectESH_SB_@Base 5.3.2
+ (optional=templinst|arch=!amd64 !i386 !ppc64)_ZN7QObject7connectIMS_FvPS_E20DisconnectConnectionEEN9QtPrivate9QEnableIfIXeqsrNS5_15FunctionPointerIT0_EE13ArgumentCountngLi1EEN11QMetaObject10ConnectionEE4TypeEPKNS7_IT_E6ObjectESE_S8_@Base 5.3.2
+ (arch=amd64 i386)_ZN9QHashData8willGrowEv@Base 5.3.2
  _ZNK12EnginioModel10metaObjectEv@Base 5.3.1
  _ZNK12EnginioModel6clientEv@Base 5.3.1
  _ZNK12EnginioModel9operationEv@Base 5.3.1
@@ -376,5 +402,8 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZZZN30EnginioClientConnectionPrivate7getPathI11QJsonObjectEENS_18GetPathReturnValueERKT_iP7QStringP10QByteArrayNS_11PathOptionsEENKUlvE0_clEvE15qstring_literal@Base 5.3.1
  _ZZZN30EnginioClientConnectionPrivate7getPathI11QJsonObjectEENS_18GetPathReturnValueERKT_iP7QStringP10QByteArrayNS_11PathOptionsEENKUlvE1_clEvE15qstring_literal@Base 5.3.1
  _ZZZN30EnginioClientConnectionPrivate7getPathI11QJsonObjectEENS_18GetPathReturnValueERKT_iP7QStringP10QByteArrayNS_11PathOptionsEENKUlvE_clEvE15qstring_literal@Base 5.3.1
+ (optional=templinst|arch=!amd64 !i386 !ppc64)_ZZZN30EnginioClientConnectionPrivate7getPathI13ObjectAdaptorI11QJsonObjectEEENS_18GetPathReturnValueERKT_iP7QStringP10QByteArrayNS_11PathOptionsEENKUlvE0_clEvE15qstring_literal@Base 5.3.2
+ (optional=templinst|arch=!amd64 !i386 !ppc64)_ZZZN30EnginioClientConnectionPrivate7getPathI13ObjectAdaptorI11QJsonObjectEEENS_18GetPathReturnValueERKT_iP7QStringP10QByteArrayNS_11PathOptionsEENKUlvE1_clEvE15qstring_literal@Base 5.3.2
+ (optional=templinst|arch=!amd64 !i386 !ppc64)_ZZZN30EnginioClientConnectionPrivate7getPathI13ObjectAdaptorI11QJsonObjectEEENS_18GetPathReturnValueERKT_iP7QStringP10QByteArrayNS_11PathOptionsEENKUlvE_clEvE15qstring_literal@Base 5.3.2
  _Zls6QDebugPK12EnginioReply@Base 5.3.1
  gEnableEnginioDebugInfo@Base 5.3.1
