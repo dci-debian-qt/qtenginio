@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.2 ppc64
+# SymbolsHelper-Confirmed: 5.4.0 amd64
 libEnginio.so.1 libenginio1 #MINVER#
  _ZN12EnginioModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.1
  _ZN12EnginioModel11qt_metacastEPKc@Base 5.3.1
@@ -9,7 +9,9 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN12EnginioModel16staticMetaObjectE@Base 5.3.1
  _ZN12EnginioModel5queryEv@Base 5.3.1
  _ZN12EnginioModel6appendERK11QJsonObject@Base 5.3.1
+ _ZN12EnginioModel6reloadEv@Base 5.4.0
  _ZN12EnginioModel6removeEi@Base 5.3.1
+ _ZN12EnginioModel7setDataEiRK11QJsonObject@Base 5.4.0
  _ZN12EnginioModel7setDataEiRK8QVariantRK7QString@Base 5.3.1
  _ZN12EnginioModel8setQueryERK11QJsonObject@Base 5.3.1
  _ZN12EnginioModel9setClientEPK13EnginioClient@Base 5.3.1
@@ -86,6 +88,7 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN13EnginioString50Download_operation_requires_non_empty_fileId_valueE@Base 5.3.1
  _ZN13EnginioString57EnginioModel_Trying_to_update_an_object_with_unknown_roleE@Base 5.3.1
  _ZN13EnginioString57EnginioModel_was_removed_before_this_request_was_preparedE@Base 5.3.1
+ _ZN13EnginioString58EnginioModel_Trying_to_update_an_item_with_an_empty_objectE@Base 5.4.0
  _ZN13EnginioString58Requested_object_acl_operation_requires_non_empty_id_valueE@Base 5.3.1
  _ZN13EnginioString5MinusE@Base 5.3.1
  _ZN13EnginioString5countE@Base 5.3.1
@@ -190,11 +193,9 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN17EnginioReplyStateD1Ev@Base 5.3.1
  _ZN17EnginioReplyStateD2Ev@Base 5.3.1
  _ZN23EnginioBaseModelPrivate14fullQueryResetERK10QJsonArray@Base 5.3.1
- (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips64el mipsel)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC1ERKS0_@Base 5.3.1
- (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips64el mipsel)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC2ERKS0_@Base 5.3.1
  (arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseD1Ev@Base 5.3.1
  (arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseD2Ev@Base 5.3.1
- _ZN23EnginioBaseModelPrivate20receivedNotificationE11QJsonObject@Base 5.3.1
+ _ZN23EnginioBaseModelPrivate20receivedNotificationERK11QJsonObject@Base 5.4.0
  _ZN23EnginioBaseModelPrivate22IncrementalModelUpdateE@Base 5.3.1
  _ZN23EnginioBaseModelPrivate26receivedCreateNotificationERK11QJsonObject@Base 5.3.1
  _ZN23EnginioBaseModelPrivate26receivedRemoveNotificationERK11QJsonObjecti@Base 5.3.1
@@ -269,6 +270,7 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN30EnginioClientConnectionPrivate20finishDelayedRepliesEv@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate21constructErrorMessageERK10QByteArray@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate21uploadAsHttpMultiPartI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EP9QIODeviceRK7QString@Base 5.3.1
+ _ZN30EnginioClientConnectionPrivate24appendIdToPathIfPossibleEP7QStringRKS0_P10QByteArrayNS_11PathOptionsES4_@Base 5.4.0
  _ZN30EnginioClientConnectionPrivate24emitSessionAuthenticatedEP17EnginioReplyState@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate29prepareNetworkManagerInThreadEv@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate30emitSessionAuthenticationErrorEP17EnginioReplyState@Base 5.3.1
