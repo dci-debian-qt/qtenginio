@@ -3,6 +3,7 @@ qtenginio-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/copyright.
+  * Bump Qt build-dependencies to 5.4.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Dec 2014 11:41:32 +0300
 
