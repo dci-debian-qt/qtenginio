@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0 amd64
+# SymbolsHelper-Confirmed: 5.4.0 amd64 armhf hurd-i386 i386 kfreebsd-i386 mips mipsel
 libEnginio.so.1 libenginio1 #MINVER#
  _ZN12EnginioModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.1
  _ZN12EnginioModel11qt_metacastEPKc@Base 5.3.1
@@ -193,6 +193,8 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN17EnginioReplyStateD1Ev@Base 5.3.1
  _ZN17EnginioReplyStateD2Ev@Base 5.3.1
  _ZN23EnginioBaseModelPrivate14fullQueryResetERK10QJsonArray@Base 5.3.1
+ (arch=armhf hurd i386 kfreebsd-i386 mips mipsel)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC1ERKS0_@Base 5.4.0
+ (arch=armhf hurd i386 kfreebsd-i386 mips mipsel)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC2ERKS0_@Base 5.4.0
  (arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseD1Ev@Base 5.3.1
  (arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseD2Ev@Base 5.3.1
  _ZN23EnginioBaseModelPrivate20receivedNotificationERK11QJsonObject@Base 5.4.0
@@ -264,12 +266,12 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN30EnginioClientConnectionPrivate11uploadChunkEP17EnginioReplyStateP9QIODevicex@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate12emitFinishedEP17EnginioReplyState@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate13replyFinishedEP13QNetworkReply@Base 5.3.1
- (arch=alpha arm64 armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips64el mipsel powerpc ppc64 ppc64el s390x sparc)_ZN30EnginioClientConnectionPrivate13uploadChunkedI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EP9QIODevice@Base 5.3.2
+ (arch=alpha arm64 armel hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc)_ZN30EnginioClientConnectionPrivate13uploadChunkedI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EP9QIODevice@Base 5.3.2
  _ZN30EnginioClientConnectionPrivate14prepareRequestERK4QUrl@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate20assignNetworkManagerEv@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate20finishDelayedRepliesEv@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate21constructErrorMessageERK10QByteArray@Base 5.3.1
- _ZN30EnginioClientConnectionPrivate21uploadAsHttpMultiPartI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EP9QIODeviceRK7QString@Base 5.3.1
+ (arch=!armhf !mips !mipsel)_ZN30EnginioClientConnectionPrivate21uploadAsHttpMultiPartI11QJsonObjectEEP13QNetworkReplyRK13ObjectAdaptorIT_EP9QIODeviceRK7QString@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate24appendIdToPathIfPossibleEP7QStringRKS0_P10QByteArrayNS_11PathOptionsES4_@Base 5.4.0
  _ZN30EnginioClientConnectionPrivate24emitSessionAuthenticatedEP17EnginioReplyState@Base 5.3.1
  _ZN30EnginioClientConnectionPrivate29prepareNetworkManagerInThreadEv@Base 5.3.1
