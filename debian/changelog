@@ -5,6 +5,7 @@ qtenginio-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * Update watch file to qt.io.
   * Bump Qt build-dependencies to 5.4.1.
   * Update debian/copyright.
+  * Update *.symbols for GCC 5. (Closes: #778088)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2015 14:09:30 +0000
 

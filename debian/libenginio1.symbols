@@ -164,9 +164,9 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN16EnginioFakeReplyC1EP7QObjectRK10QByteArray@Base 5.3.1
  _ZN16EnginioFakeReplyC2EP30EnginioClientConnectionPrivateRK10QByteArray@Base 5.3.1
  _ZN16EnginioFakeReplyC2EP7QObjectRK10QByteArray@Base 5.3.1
- _ZN16EnginioFakeReplyD0Ev@Base 5.3.1
- _ZN16EnginioFakeReplyD1Ev@Base 5.3.1
- _ZN16EnginioFakeReplyD2Ev@Base 5.3.1
+ (optional=gccinternal)_ZN16EnginioFakeReplyD0Ev@Base 5.3.1
+ (optional=gccinternal)_ZN16EnginioFakeReplyD1Ev@Base 5.3.1
+ (optional=gccinternal)_ZN16EnginioFakeReplyD2Ev@Base 5.3.1
  _ZN17EnginioDummyReply11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.1
  _ZN17EnginioDummyReply11qt_metacastEPKc@Base 5.3.1
  _ZN17EnginioDummyReply16staticMetaObjectE@Base 5.3.1
@@ -175,9 +175,9 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN17EnginioDummyReply9writeDataEPKcx@Base 5.3.1
  _ZN17EnginioDummyReplyC1EP7QObject@Base 5.3.1
  _ZN17EnginioDummyReplyC2EP7QObject@Base 5.3.1
- _ZN17EnginioDummyReplyD0Ev@Base 5.3.1
- _ZN17EnginioDummyReplyD1Ev@Base 5.3.1
- _ZN17EnginioDummyReplyD2Ev@Base 5.3.1
+ (optional=gccinternal)_ZN17EnginioDummyReplyD0Ev@Base 5.3.1
+ (optional=gccinternal)_ZN17EnginioDummyReplyD1Ev@Base 5.3.1
+ (optional=gccinternal)_ZN17EnginioDummyReplyD2Ev@Base 5.3.1
  _ZN17EnginioReplyState11dataChangedEv@Base 5.3.1
  _ZN17EnginioReplyState11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.1
  _ZN17EnginioReplyState11qt_metacastEPKc@Base 5.3.1
@@ -241,12 +241,12 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN24EnginioBackendConnection7timeOutEv@Base 5.3.1
  _ZN24EnginioBackendConnectionC1EP7QObject@Base 5.3.1
  _ZN24EnginioBackendConnectionC2EP7QObject@Base 5.3.1
- _ZN24EnginioBackendConnectionD0Ev@Base 5.3.1
- _ZN24EnginioBackendConnectionD1Ev@Base 5.3.1
- _ZN24EnginioBackendConnectionD2Ev@Base 5.3.1
- _ZN25QAbstractItemModelPrivateD0Ev@Base 5.3.1
- _ZN25QAbstractItemModelPrivateD1Ev@Base 5.3.1
- _ZN25QAbstractItemModelPrivateD2Ev@Base 5.3.1
+ (optional=gccinternal)_ZN24EnginioBackendConnectionD0Ev@Base 5.3.1
+ (optional=gccinternal)_ZN24EnginioBackendConnectionD1Ev@Base 5.3.1
+ (optional=gccinternal)_ZN24EnginioBackendConnectionD2Ev@Base 5.3.1
+ (optional=gccinternal)_ZN25QAbstractItemModelPrivateD0Ev@Base 5.3.1
+ (optional=gccinternal)_ZN25QAbstractItemModelPrivateD1Ev@Base 5.3.1
+ (optional=gccinternal)_ZN25QAbstractItemModelPrivateD2Ev@Base 5.3.1
  _ZN27EnginioOAuth2Authentication11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.1
  _ZN27EnginioOAuth2Authentication11qt_metacastEPKc@Base 5.3.1
  _ZN27EnginioOAuth2Authentication11setPasswordERK7QString@Base 5.3.1
