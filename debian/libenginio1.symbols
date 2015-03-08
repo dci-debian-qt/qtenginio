@@ -193,8 +193,8 @@ libEnginio.so.1 libenginio1 #MINVER#
  _ZN17EnginioReplyStateD1Ev@Base 5.3.1
  _ZN17EnginioReplyStateD2Ev@Base 5.3.1
  _ZN23EnginioBaseModelPrivate14fullQueryResetERK10QJsonArray@Base 5.3.1
- (arch=armhf hurd i386 kfreebsd-i386 mips mipsel)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC1ERKS0_@Base 5.4.0
- (arch=armhf hurd i386 kfreebsd-i386 mips mipsel)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC2ERKS0_@Base 5.4.0
+ (optional=gccinternal|arch=armhf hurd i386 kfreebsd-i386 mips mipsel)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC1ERKS0_@Base 5.4.0
+ (optional=gccinternal|arch=armhf hurd i386 kfreebsd-i386 mips mipsel)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseC2ERKS0_@Base 5.4.0
  (arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseD1Ev@Base 5.3.1
  (arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23EnginioBaseModelPrivate20SwapNetworkReplyBaseD2Ev@Base 5.3.1
  _ZN23EnginioBaseModelPrivate20receivedNotificationERK11QJsonObject@Base 5.4.0
