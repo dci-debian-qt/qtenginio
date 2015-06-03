@@ -10,6 +10,7 @@ qtenginio-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
   * Clear up the list in Uploaders removing people who hasn't committed to the
     repo in more than a year. They can re add themselves whenever they want
     (and we really hope to see you back really soon!).
+  * Expose HTML documentation.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Mar 2015 21:50:20 +0300
 
